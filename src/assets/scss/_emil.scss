@@ -1100,3 +1100,21 @@ input[type="checkbox"].form-control-checkbox-medium {
   opacity: 0.5;
   background-color: $color-white;
 }
+
+.text-transform-none {
+    text-transform: none !important;
+}
+
+.flex-wrap-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.position-fixed-to-bottom {
+    position: fixed !important;
+    bottom: 0px;
+    margin-bottom: 0px !important;
+}
+
+.tab-content {
+    height: 100vh;
+}

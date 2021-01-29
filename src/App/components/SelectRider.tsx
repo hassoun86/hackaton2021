@@ -14,14 +14,14 @@ export const SelectRider: FC = () => {
           </div>
           <div className="float-left">
               <div className="col p-0 mt-5">
-              <Link to="/easy-rider">
+              <Link to="/search-destination">
                   <Button variant="outline-primary" className="select-button"> <img src="/assets/Group-69.svg" /><span>Easy Rider</span></Button>
                </Link>
               </div>
           </div>
           <div className="float-left p-l-15">
               <div className="col p-0 mt-5">
-              <Link to="/pro-rider">
+              <Link to="/search-destination">
                   <Button variant="outline-primary" className="select-button"><img src="/assets/pro-rider.svg" /><span>Pro Rider</span></Button>
                </Link>
               </div>
