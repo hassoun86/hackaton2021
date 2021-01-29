@@ -9,7 +9,7 @@ export const App: React.FC = () => {
             <div>Landing page</div>
           </Route>
           <Route path="/other">
-            <div>other page</div>
+            <div>Other page</div>
           </Route>
         </Switch>
   );
