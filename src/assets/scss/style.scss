@@ -72,3 +72,24 @@ File: style.css
 @import "emil";
 @import "bpmn/bpmn-embedded.scss";
 @import "bpmn/bpmn.scss";
+
+.landing-image img {
+  width: 100%;
+}
+
+.btn-primary {
+  background: #F4C22B;
+  border-color: #F4C22B;
+  font-size: 24px;
+
+  &:hover, &:active {
+    background: #d1a316;
+    border-color: #d1a316;
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background: #d1a316;
+  border-color: #d1a316;
+}
