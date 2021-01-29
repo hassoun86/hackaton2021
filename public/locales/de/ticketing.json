@@ -1,0 +1,86 @@
+{
+  "ticketListPage": {
+    "title": "Aufgabenmanagement",
+    "list": "Aufgabenliste"
+  },
+  "newTicketPage": {
+    "title": "Neue Aufgabe erstellen",
+    "subject": "Aufgabentitel",
+    "description": "Beschreibung"
+  },
+  "ticketDetailsPage": {
+    "title": "Aufgabe: {{ ticketId }}",
+    "addComment": "Einen Kommentar hinzufügen...",
+    "addCommentButton": "Kommentar hinzufügen",
+    "deleteModalTitle": "Kommentar löschen",
+    "deleteModalMessages": "Sind Sie sicher, dass Sie diesen Kommentar löschen möchten?"
+  },
+  "dateFormat": "DD. MMMM YYYY [um] HH:mm",
+  "search": {
+    "label": "Kunde/Versicherung",
+    "placeholder": "Suche nach Namen oder Nummer"
+  },
+  "filters": {
+    "all_unsolved": "Alle nicht erledigten Aufgaben",
+    "unassigned": "Nicht zugewiesene Aufgaben",
+    "assigned_to_me": "Mir zugewiesen",
+    "open": "Offen",
+    "waiting": "Geplante Aufgaben",
+    "solved": "Erledigte Aufgaben",
+    "title": "Überblick"
+  },
+  "category": {
+    "fzv": "FZV",
+    "vwb": "VWB",
+    "cat_3": "KATEGORIE 3",
+    "cat_4": "KATEGORIE 4",
+    "blocked_tikets": "BLOCKIERTE AUFGABEN",
+    "deleted_tikets": "GELÖSCHTE AUFGABEN"
+  },
+  "status": {
+    "open": "Offen",
+    "blocked": "Blockiert",
+    "solved": "Erledigt",
+    "waiting": "Geplant"
+  },
+  "labelUserSearch": "Zugewiesene Person",
+  "assignedToMe": "Mir zuweisen",
+  "categoryLabel": "Kategorie",
+  "categoryPlc": "Kategorie auswählen",
+  "statusLabel": "Status",
+  "statusPlc": "Status auswählen",
+  "ticket": {
+    "subject": "Aufgabe",
+    "timeCreated": "Erstellt am",
+    "category": "Kategorie",
+    "assignedTo": "Mitarbeiter"
+  },
+  "tiketSettings":{
+    "setting1": "Am häufigsten verwendete Einstellung 1",
+    "triggers": "Auslöser",
+    "setting2": "Am häufigsten verwendete Einstellung 2",
+    "setting3": "Am häufigsten verwendete Einstellung 3",
+    "allSetting": "Alle Aufgabeneinstellungen"
+  },
+  "newTask": "Neue Aufgabe erstellen",
+  "actions": "Aktionen",
+  "markAsOpen": "Als offen markieren",
+  "markAsWaiting": "Als geplant markieren",
+  "markAsSolved": "Als erledigt markieren",
+  "assignTo": "Zuweisen",
+  "moveTo": "Verschieben",
+  "delete": "Löschen",
+  "deleteTitle": "{{count}} Aufgabe löschen",
+  "deleteTitle_plural": "{{count}} Aufgaben löschen",
+  "deleteBody": "Sind Sie sicher, dass Sie diese Aufgabe löschen möchten?",
+  "deleteBody_plural": "Sind Sie sicher, dass Sie {{count}} Aufgaben löschen möchten?",
+  "moveToTitle": "{{count}} Aufgabe verschieben",
+  "moveToTitle_plural": "{{count}} Aufgaben verschieben",
+  "assignToTitle": "{{count}} Aufgabe zuweisen",
+  "assignToTitle_plural": "{{count}} Aufgaben zuweisen",
+  "ticketsStat":{
+    "openTickets": "Offene Tickets",
+    "solvedTickets": "Erledigte Tickets",
+    "unassignedTickets": "Nicht zugeordnete Tickets"
+  }
+}

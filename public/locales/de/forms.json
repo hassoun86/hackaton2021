@@ -1,0 +1,65 @@
+{
+  "required": "{{ ui.title }} ist ein Pflichtfeld.",
+  "wrong": "Der {{ ui.title }} Wert \"{{ data.value }}\" ist ungültig.",
+  "wrongEmail": "Keine gültige E-Mail-Adresse - {{ data.value}}.",
+  "min": "Das Feld {{ ui.title }} enthält {{ data.value }} aber der Wert muss mehr als {{ data.min }} Zeichen enthalten.",
+  "buttonToolbar": {
+    "submit": "Speichern",
+    "reset": "Abbrechen"
+  },
+  "messages": {
+    "fieldRequired": "{{ ui.title }} ist ein Pflichtfeld.",
+    "fieldInvalid": "Bitte geben Sie einen gültigen Wert für {{ ui.title }} ein.",
+    "invalidEmail": "Eine ungültige E-Mail-Adresse wurde eingegeben.",
+    "numberMax": "Der maximale Wert für {{ui.title}} ist {{data.max}}.",
+    "numberMin": "Der minimale Wert für {{ui.title}} ist {{data.min}}.",
+    "booleanTrueRequired": "{{ui.title}} muss überprüft werden."
+  },
+  "genderOption": "$t( genderDict.{{value}}.label )",
+  "genderDict": {
+    "male": "Herr",
+    "female": "Frau",
+    "others": "Andere"
+  },
+  "paymentFrequency": "$t( paymentFrequencyDict.{{value}} )",
+  "paymentFrequencyDict": {
+    "yearly": "Jährlich",
+    "monthly": "Monatlich",
+    "halfYearly": "Halbjährlich",
+    "quarterly": "Vierteljährlich"
+  },
+  "paymentMethodOption": "$t( paymentMethodDict.{{value}} )",
+  "paymentMethodDict": {
+    "directDebit": "Lastschrifteinzug",
+    "bankTransfer": "Banküberweisung"
+  },
+  "policyStatusOption": "$t(policyStatusDict.{{value}})",
+  "policyStatusDict": {
+    "applied": "Beantragt",
+    "active": "Aktiv",
+    "performanceFree": "Leistungsfrei",
+    "pause": "Pausiert",
+    "cancel": "Storno"
+  },
+  "policyContractLengthOption": "$t(policyContractLengthDict.{{value}})",
+  "policyContractLengthDict": {
+    "unlimited": "Unbestimmt",
+    "1y": "1 Jahr",
+    "3y": "3 Jahre",
+    "5y": "5 Jahre"
+  },
+  "familyInfoOption": "$t(familyDict.{{value}})",
+  "familyInfoDict": {
+    "single": "Single ohne Kinder",
+    "familyWithoutKids": "Familie ohne Kinder",
+    "singleWithKids": "Single mit Kindern",
+    "familyWithKids": "Familie mit Kindern"
+  },
+  "tariffOption": "$t(tariffDict.{{value}})",
+  "tariffDict": {
+    "light": "Light",
+    "basis": "Basis",
+    "premium": "Premium"
+  },
+  "deductableOption": "{{amount}}{{symbol}}"
+}

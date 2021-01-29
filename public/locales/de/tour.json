@@ -1,0 +1,33 @@
+{
+  "locale": {
+    "back": "Zurück",
+    "close": "Schließen",
+    "last": "Beenden",
+    "next": "Weiter",
+    "open": "Das Dialogfenster öffnen",
+    "skip": "Überspringen"
+  },
+  "explanatoryTour": "Einführungstour",
+  "dashboardPageTour": {
+    "newPoliciesContent": "Hier sehen Sie Statistiken zu den unterschiedlichen Produktsparten.",
+    "newsContent": "Hier sehen Sie aktuelle Mitteilungen.",
+    "remindersContent": "Hier sehen Sie ausgelöste Erinnerungen.",
+    "ticketStatisticsContent": "Hier sehen Sie aktuelle Statistiken zu den Aufgaben in der Aufgabenliste.",
+    "taskListContent": "Hier können Sie die Tickets die zur Zeit offen sind bearbeiten. Es werden Tickets angezeigt die Ihnen oder allen Mitarbeitern zugeordnet sind.",
+    "searchContent": "Klicken Sie hier, um nach Verträgen oder Kunden zu suchen."
+  },
+  "pbPageTour": {
+    "dashboardTitle": "Premium Benchmarking Dashboard",
+    "dashboardContent": "Hier sehen Sie das Analyse-Dashboard. Weitere Details finden Sie in der Dokumentation.",
+    "profileMenuTitle": "Benutzermenü",
+    "profileMenuContent": "Hier sehen Sie den aktiven Benutzer und Sie können sich abmelden.",
+    "productSelectorTitle": "Produktauswahl",
+    "productSelectorContent": "Hier können Sie die anderen Produkte der EMIL Insurance Suite auswählen.",
+    "helpMenuTitle": "Hilfe",
+    "helpMenuContent": "Hier finden Sie nützliche Links und Ressourcen.",
+    "collapseMenuTitle": "Menü verkleinern",
+    "collapseMenuContent": "Klicken Sie hier, um das Menü zu verkleinern oder zu vergößern.",
+    "footerLinksTitle": "Impressum/Datenschutz",
+    "footerLinksContent": "Hier finden Sie Informationen über EMIL Group und unseren Datenschutz."
+  }
+}

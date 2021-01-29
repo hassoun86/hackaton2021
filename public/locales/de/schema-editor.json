@@ -1,0 +1,61 @@
+{
+  "type": {
+    "common": {
+      "placeholder": "Platzhalter"
+    },
+    "string": {
+      "label": "String",
+      "tooltipHelp": "Tooltip-Hilfe"
+    },
+    "number": {
+      "label": " Nummer"
+    },
+    "date": {
+      "label": "Datum"
+    },
+    "boolean": {
+      "label": "Boolescher Wert"
+    }
+  },
+  "editor": {
+    "ui": {
+      "productMetadata": "Produktmetadaten",
+      "productName": "Produktname",
+      "productFields": "Produktfelder",
+      "fieldLabel": "Feldlabel",
+      "fieldDescription": "Feldbeschreibung",
+      "fieldName": "Feldname",
+      "fieldDataType": "Datentyp",
+      "variableDefinition": "Variablendefinition"
+    },
+    "actions": {
+      "reset": "Zurücksetzen",
+      "remove": " Entfernen",
+      "removeVariableTitle": "Variable entfernen",
+      "removeVariableBody": "Möchten Sie diese Variable wirklich löschen: {{ name }}?",
+      "edit": "Bearbeiten",
+      "addField": "Neues benutzerdefiniertes Feld",
+      "overwriteThisVersion": "Diese Version überschreiben",
+      "saveAsNewVersion": "Als neue Version speichern",
+      "removeVersion": "Diese Version entfernen",
+      "addVariable": "Variable hinzufügen"
+    },
+    "head": {
+      "fieldLabel": "Label",
+      "fieldDescription": "Beschreibung",
+      "fieldName": "Name",
+      "fieldType": "Typ",
+      "fieldRequired": "Erforderlich",
+      "fieldUnique": "Einzigartig"
+    },
+    "validation": { 
+      "labelRequired": "Label ist ein Pflichtfeld.",
+      "descriptionRequired": "Beschreibung ist ein Pflichtfeld.",
+      "nameRequired": "Name ist ein Pflichtfeld.", 
+      "nameMatches" : "Nur Buchstaben und der Unterstrich ( _ ) sind erlaubt.", 
+      "typeRequired": "Typ ist ein Pflichtfeld.", 
+      "fieldsRequired": "Die Produktdefinition muss mindestens ein benutzerdefiniertes Feld enthalten.", 
+      "productNameRequired": "Produktname ist ein Pflichtfeld."
+    }
+  }
+}

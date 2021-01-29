@@ -1,0 +1,237 @@
+{
+  "details": {
+    "title": "Policy: {{policyId}}",
+    "policyId": "Policy: {{policyId}}",
+    "customerId": "Customer: {{customerId}}",
+    "customer": "Customer",
+    "registeredDate": "Registered on:",
+    "lastUpdate": "Last update:",
+    "timeFrame": "Timeframe",
+    "product": "Product",
+    "updateNote": "Bitte beachte: Das Datum Gültig bis gilt bis 0:00 Uhr und bestätigte Änderungen können nicht rückgängig gemacht werden.",
+    "optional": "* optional",
+    "required": "Required",
+    "companyName": "Company Name",
+    "startDate": "Policy Start Date",
+    "endDate": "End Date",
+    "contractLength": "Contract Length",
+    "createAddendum": "Create Addendum"
+  },
+  "list": {
+    "title": "Policy list",
+    "policyNumber": "Policy Number",
+    "productType": "Product Type",
+    "product": "Product",
+    "startDate": "Start Date",
+    "Status": "Status",
+    "cover": "Coverage",
+    "marking": "Marking",
+    "tariff": "Tarif",
+    "type": "Typ"
+  },
+  "formTabs": {
+    "policy": "General",
+    "productType": "Risk",
+    "product": "Product"
+  },
+  "formTitle": {
+    "policy": "Policy",
+    "policyHolder": "Policyholder"
+  },
+  "buttons": {
+    "draft": "Save Draft",
+    "save": "Save"
+  },
+  "messages": {
+    "fieldRequired": "The {{ fieldLabel }} field is required."
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Not Active",
+    "paused": "Paused"
+  },
+  "productTypeForm": {
+    "insunraceGroup": "Insurance Group",
+    "familyInfo": "Family",
+    "family": {
+      "single": "Single without kids",
+      "familyWithoutKids": "Family without kids",
+      "singleWithKids": "Single with kids",
+      "familyWithKids": "Family with kids"
+    },
+    "birthDate": "BirthDate",
+    "zipCode": "Postal Code",
+    "civilLiability": "Civil Liability",
+    "liability": "Educator / Teacher Liability",
+    "liabilityGroup": "Number of teachers in the group of insured persons"
+  },
+  "productForm": {
+    "tariff": "Tariff",
+    "tariffOptions": {
+      "light": "Light",
+      "basis": "Basis",
+      "premium": "Premium"
+    },
+    "deductable": "Deductable",
+    "additionalOptions": "Additional Options",
+    "exemption": "Exemption",
+    "inAbility": "In Ability",
+    "homeOwner": "Home Owner",
+    "badDebit": "Bad Debit",
+    "extraProtection": "Extra Protections",
+    "rentalVehicleProtections": "Rental Vehicle Protection"
+  },
+  "customerForm": {
+    "name": "Name",
+    "email": "E-Mail",
+    "birthDate": "BirthDate",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "gender": {
+      "title": "Title",
+      "male": "Male",
+      "female": "Female",
+      "others": "others"
+    }
+  },
+  "paymentForm": {
+    "paymentMethod": {
+      "title": "Payment Method",
+      "directDebit": "Direct Debit",
+      "bankTransfer": "Bank Transfer"
+    },
+    "paymentFrequency": {
+      "title": "Payment Frequency",
+      "yearly": "Yearly",
+      "monthly": "Monthly",
+      "halfYearly": "6 Months",
+      "quarterly": "Quarterly"
+    }
+  },
+  "tablesTabs": {
+    "documents": "Documents",
+    "invoices": "Invoices",
+    "debitAndCredit": "Debit/Credit",
+    "damage": "Damage",
+    "suspensions": "Non Performance Period"
+  },
+  "documents": {
+    "date": "Date",
+    "relative": "Relative",
+    "custom": "Custom",
+    "type": "Type",
+    "name": "Name",
+    "titleModalUploadDoc": "Upload a new document",
+    "addDocument": "Add document",
+    "chooseFile": "Choose file",
+    "comment": "Comment",
+    "selectFile": "Select a file",
+    "selectTemplate": "Select a template",
+    "filterType": "Filter by type",
+    "today": "Today",
+    "lastWeek": "Last Week",
+    "currentMonth": "Current Month",
+    "lastMonth": "Last Month",
+    "time": "Time",
+    "apply": "Apply",
+    "reset": "Reset",
+    "download": "Download",
+    "from": "From",
+    "to": "To",
+    "allDates": "All Dates",
+    "placeholder": "Select date and time",
+    "exportDocument": "Export Document",
+    "export": "Export",
+    "exportingDocuments": "Exporting Dokument",
+    "emailNotify": "Notify me per email",
+    "emailPlaceholder": "E-Mail",
+    "submit": "Submit",
+    "successMessage": "Please check your email box, the documents are sent to your given email."
+  },
+  "invoices": {
+    "date": "Date",
+    "type": "Type",
+    "id": "ID",
+    "total": "Invoice(€)",
+    "addInvoice": "Add Invoice",
+    "reCalculateInvoice": "Recalculate New Invoice"
+  },
+  "debitCredit": {
+    "date": "Date",
+    "dueDate": "Due Date",
+    "description": "Description",
+    "id": "ID",
+    "debit": "Debit",
+    "credit": "Credit",
+    "status": "Status"
+  },
+  "damage": {
+    "date": "Date",
+    "type": "Type",
+    "id": "ID",
+    "branch": "Branch",
+    "amount": "Amount(€)",
+    "demotion": "Demotion",
+    "edit": "Edit",
+    "history": "History",
+    "status": "Status"
+  },
+  "suspensions": {
+    "from": "From",
+    "to": "To",
+    "type": "Type"
+  },
+  "contractLength": {
+    "key": "$t( contractLength.{{ policy.contract_length }} )",
+    "year": "{{count}} Year",
+    "year_plural": "{{count}} Years",
+    "unlimited": "Unlimited",
+    "1y": "1 Year",
+    "3y": "3 Years",
+    "5y": "5 Years"
+  },
+  "feeTable": {
+    "fee": "Fee",
+    "type": "Type",
+    "baseFee": "Basic Fee (€)",
+    "feePerKm": "Fee Per Km (cents)",
+    "liabilityInsurance": "Liability Insurance",
+    "partialCoverage": "Partial Coverage",
+    "fullCoverage": "Full Coverage",
+    "schutzbrief": "Schutzbrief",
+    "insuranceTax": "Tax",
+    "total": "Total",
+    "date": "Date",
+    "calculate": "Calculate"
+  },
+  "logBookTable": {
+    "logBook": "Log Book",
+    "date": "Date",
+    "reason": "Reason",
+    "actor": "Actor"
+  },
+  "policyStatus": "$t(policyStatuses.{{policy.status}})",
+  "policyStatuses": {
+    "applied": "Applied",
+    "active": "Active",
+    "performanceFree": "Performance Free",
+    "pause": "Pause",
+    "cancel": "Cancel"
+  },
+  "createdPolicyNav": {
+    "titleCreateNew": "Create new insurance: ",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish"
+  },
+  "typeFilters": "$t(typeDict.{{value}})",
+  "typeDict": {
+    "all": "All Documents",
+    "invoices": "Invoices",
+    "warnings": "Warnings",
+    "insurance": "Insurance"
+  },
+  "titleDateFormat": "DD. MMM",
+  "dateFormat": "DD. MMMM"
+}

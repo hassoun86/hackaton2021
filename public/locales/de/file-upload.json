@@ -1,0 +1,12 @@
+{
+  "textDropZone": "Ziehen Sie die Dateien per Drag-and-Drop, um sie hier abzulegen, oder klicken Sie hier, um die Dateien auszuwählen.",
+  "acceptDropZone": "Lassen Sie die Maustaste los, um eine oder mehrere Dateien hier abzulegen.",
+  "textDropZoneForCsv": "Legen Sie die CSV-Datei hier ab, um sie hochzuladen, oder",
+  "btnChooseFile": "Wählen Sie eine Datei auf Ihrem Computer aus",
+  "deleteTitle": "Datei löschen",
+  "deleteBody": "Sind Sie sicher, dass Sie diese Datei löschen möchten?",
+  "btnUploadFiles": "Dateien hochladen",
+  "previewImageTitle": "Vorschau",
+  "tooManyFiles": "Fehler: Zu viele Dateien",
+  "fileInvalidType": "Fehler: Der Dateityp muss {{ fileType }} sein."
+}

@@ -1,0 +1,668 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+    format('woff2');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'bpmn';
+    src: url('../font/bpmn.svg?14396105#bpmn') format('svg');
+  }
+}
+*/
+[class^='bpmn-icon']:before,
+[class*=' bpmn-icon']:before {
+  /* Uncomment for 3D effect */
+  text-shadow: none;
+}
+
+/**
+ * palette
+ */
+.djs-palette {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  box-sizing: border-box;
+  width: 48px; 
+
+  .separator {
+    margin: 0 5px;
+    padding-top: 5px;
+    border: none;
+    border-bottom: solid 1px #DDD;
+    clear: both;
+  }
+
+  .entry {
+    float: left;
+    color: $color-link-setting !important;
+    font-size: 30px;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    cursor: default;
+
+    &:before {
+      vertical-align: middle;
+    }
+
+    &:hover {
+      color: $color-c-black !important;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .djs-palette-toggle {
+    font-size: 30px;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    cursor: default;
+
+    &:hover {
+      background: #666;
+    }
+  }
+
+  .djs-palette-entries:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+/**
+ * context-pad
+ */
+.djs-overlay-context-pad {
+  width: 72px; }
+
+.djs-context-pad {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+
+  .entry {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 2px 2px 0;
+    border-radius: 3px;
+    cursor: default;
+    background-color: white;
+    box-shadow: 0 0 2px 1px #FEFEFE;
+    pointer-events: all;
+    color: $color-c-black;
+
+    &:before {
+      vertical-align: top;
+    }
+
+    &:hover {
+      background: #e3ebf9;
+    }
+  }
+}
+
+.djs-context-pad.open {
+  display: block;
+}
+
+/**
+ * popup styles
+ */
+.djs-popup {
+  .entry {
+    line-height: 20px;
+    white-space: nowrap;
+    cursor: default;
+    color: $color-c-black;
+
+    &:before {
+      vertical-align: middle;
+      font-size: 20px;
+    }
+
+    .entry > span {
+      vertical-align: middle;
+      font-size: 14px;
+    }
+  }
+
+  .entry:hover,
+  .entry.active:hover {
+    background: #e3ebf9;
+  }
+
+  .entry.disabled {
+    background: inherit;
+  }
+
+  .djs-popup-header {
+    .entry {
+      display: inline-block;
+      padding: 2px 3px 2px 3px;
+      border: solid 1px transparent;
+      border-radius: 3px; 
+    }
+
+    .entry.active {
+      color: $primary-color;
+      border: solid 1px $primary-color;
+      background-color: #F6F6F6;
+    }
+  }
+}
+
+.djs-popup-body {
+  background-color: #FEFEFE; 
+
+  .entry {
+    padding: 4px 10px 4px 5px;
+  }
+
+  .entry > span {
+    margin-left: 5px;
+  }
+}
+
+.djs-popup-header {
+  border-bottom: 1px solid #DDD;
+
+  .entry {
+    margin: 1px;
+    margin-left: 3px;
+
+    &:last-child {
+      margin-right: 3px;
+    }
+  }
+}
+
+/**
+ * popup / palette styles
+ */
+.djs-popup, .djs-palette {
+  background: #FAFAFA;
+  border: solid 1px #CCC;
+  border-radius: 2px;
+}
+
+/**
+ * touch
+ */
+.djs-shape,
+.djs-connection {
+  touch-action: none;
+}
+
+.djs-segment-dragger,
+.djs-bendpoint {
+  display: none;
+}
+
+/**
+ * bendpoints
+ */
+.djs-segment-dragger .djs-visual {
+  fill: rgba(255, 255, 121, 0.2);
+  stroke-width: 1px;
+  stroke-opacity: 1;
+  stroke: rgba(255, 255, 121, 0.3);
+}
+
+.djs-bendpoint .djs-visual {
+  fill: rgba(255, 255, 121, 0.8);
+  stroke-width: 1px;
+  stroke-opacity: 0.5;
+  stroke: black;
+}
+
+.djs-segment-dragger:hover,
+.djs-bendpoints.hover .djs-segment-dragger,
+.djs-bendpoints.selected .djs-segment-dragger,
+.djs-bendpoint:hover,
+.djs-bendpoints.hover .djs-bendpoint,
+.djs-bendpoints.selected .djs-bendpoint {
+  display: block;
+}
+
+.djs-drag-active .djs-bendpoints * {
+  display: none;
+}
+
+.djs-bendpoints:not(.hover) .floating {
+  display: none; 
+}
+
+.djs-segment-dragger:hover .djs-visual,
+.djs-segment-dragger.djs-dragging .djs-visual,
+.djs-bendpoint:hover .djs-visual,
+.djs-bendpoint.floating .djs-visual {
+  fill: yellow;
+  stroke-opacity: 0.5;
+  stroke: black;
+}
+
+.djs-bendpoint.floating .djs-hit {
+  pointer-events: none;
+}
+
+.djs-segment-dragger .djs-hit,
+.djs-bendpoint .djs-hit {
+  pointer-events: all;
+  fill: none;
+}
+
+.djs-segment-dragger.horizontal .djs-hit {
+  cursor: ns-resize;
+}
+
+.djs-segment-dragger.vertical .djs-hit {
+  cursor: ew-resize;
+}
+
+.djs-segment-dragger.djs-dragging .djs-hit {
+  pointer-events: none;
+}
+
+.djs-updating,
+.djs-updating > * {
+  pointer-events: none !important;
+}
+
+.djs-updating .djs-context-pad,
+.djs-updating .djs-outline,
+.djs-updating .djs-bendpoint,
+.connect-ok .djs-bendpoint,
+.connect-not-ok .djs-bendpoint,
+.drop-ok .djs-bendpoint,
+.drop-not-ok .djs-bendpoint {
+  display: none !important;
+}
+
+.djs-segment-dragger.djs-dragging,
+.djs-bendpoint.djs-dragging {
+  display: block;
+  opacity: 1.0;
+}
+
+.djs-segment-dragger.djs-dragging .djs-visual,
+.djs-bendpoint.djs-dragging .djs-visual {
+  fill: yellow;
+  stroke-opacity: 0.5;
+}
+
+/**
+ * tooltips
+ */
+.djs-tooltip-error {
+  font-size: 11px;
+  line-height: 18px;
+  text-align: left;
+  padding: 5px;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.djs-tooltip-error > * {
+  width: 160px;
+  background: #fcecf0;
+  color: #9e4c4c;
+  padding: 3px 7px;
+  border-radius: 5px;
+  border-left: solid 5px #ae4949;
+}
+
+/**
+ * search pad
+ */
+.djs-search-container {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  min-width: 300px;
+  max-width: 400px;
+  z-index: 10;
+  font-size: 1.05em;
+  opacity: 0.9;
+  background: #FAFAFA;
+  border: solid 1px #CCC;
+  border-radius: 2px;
+}
+
+.djs-search-container:not(.open) {
+  display: none;
+}
+
+.djs-search-input {
+  input {
+    font-size: 1.05em;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc; 
+
+    &:focus {
+      outline: none;
+      border-color: #52B415;
+    }
+  }
+}
+
+.djs-search-results {
+  position: relative;
+  overflow-y: auto;
+  max-height: 200px;
+  width: 100%;
+  padding: 6px 10px;
+  background: white;
+  border-bottom: solid 1px #AAA;
+  border-radius: 1px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.djs-search-highlight {
+  color: black; }
+
+.djs-search-result-primary {
+  margin: 0 0 10px; }
+
+.djs-search-result-secondary {
+  font-family: monospace;
+  margin: 0; }
+
+.djs-search-result:hover {
+  background: #fdffd6; }
+
+.djs-search-result-selected {
+  background: #fffcb0; }
+
+.djs-search-result-selected:hover {
+  background: #f7f388; }
+
+.djs-search-overlay {
+  background: yellow;
+  opacity: 0.3; }
+
+/**
+ * hidden styles
+ */
+.djs-element-hidden,
+.djs-element-hidden .djs-hit,
+.djs-element-hidden .djs-outline,
+.djs-label-hidden .djs-label {
+  display: none !important; }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format("woff2"); }
+
+.djs-minimap {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: solid 2px #c3d4f4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background: #fafafa;
+
+  &:not(.open) {
+    overflow: hidden;
+  }
+
+  .map {
+    display: none;
+    width: 330px;
+    height: 180px;
+  }
+}
+
+.djs-minimap.open .map {
+  display: block;
+}
+
+.djs-minimap:not(.open) .toggle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #4c6aa7;
+  background-color: #e3ebf9;
+  border: solid 2px #c3d4f4;
+  border-radius: 5%; }
+
+.djs-minimap:not(.open) .toggle:before {
+  font-family: 'Material Icons';
+  font-size: 25px;
+  content: '\e55b';
+  cursor: pointer; }
+
+.djs-minimap.open .toggle {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #4c6aa7;
+  background-color: #e3ebf9;
+  border: solid 2px #c3d4f4;
+  border-radius: 5%;
+  transition: 200ms;
+  cursor: pointer; }
+
+.djs-minimap:not(.open) .toggle:hover {
+  background-color: #caddff; }
+
+.djs-minimap:not(.open) .toggle:active {
+  background-color: #acc1e7; }
+
+.djs-minimap.open .toggle:hover {
+  background-color: #caddff; }
+
+.djs-minimap.open .toggle:active {
+  background-color: #acc1e7; }
+
+.djs-minimap.open .toggle:before {
+  font-family: 'Material Icons';
+  font-size: 25px;
+  content: '\e14c'; }
+
+.djs-minimap .map {
+  cursor: crosshair; }
+
+.djs-minimap .viewport {
+  fill: none;
+  stroke: none; }
+
+.djs-minimap .viewport-dom {
+  position: absolute;
+  border: solid 2px #2ab3b0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: move; }
+
+.djs-minimap:not(.open) .viewport-dom {
+  display: none; }
+
+.djs-minimap.open .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  pointer-events: none; }
+
+.djs-minimap .cursor-crosshair {
+  cursor: crosshair; }
+
+.djs-minimap .cursor-move {
+  cursor: move; }
+
+.djs-palette {
+  width: 96px; }
+
+.djs-popup, .djs-palette {
+  background: #ebebeb;
+  border: solid 2px #e0e0e0;
+  border-radius: 8px;
+}
+
+.action-button-fit {
+  position: absolute;
+  top: 116px;
+  right: 20px;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  color: $primary-color;
+  background-color: #e3ebf9;
+  border: solid 2px #c3d4f4;
+  border-radius: 2px;
+  z-index: 1;
+  transition: 200ms;
+  cursor: pointer; 
+
+  &:before {
+    font-family: 'Material Icons';
+    font-size: 25px;
+    content: "";
+  }
+
+  &:hover {
+    background-color: #caddff;
+  }
+
+  &:active {
+    background-color: #acc1e7;
+  }
+}
+
+.action-button-zoom-in {
+  position: absolute;
+  top: 62px;
+  right: 20px;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  color: $primary-color;
+  background-color: #e3ebf9;
+  border: solid 2px #c3d4f4;
+  border-radius: 2px;
+  z-index: 1;
+  transition: 200ms;
+  cursor: pointer;
+
+  &:before {
+    font-family: 'Material Icons';
+    font-size: 25px;
+    content: "";
+  }
+
+  &:hover {
+    background-color: #caddff;
+  }
+
+  &:active {
+    background-color: #acc1e7;
+  }
+}
+
+.action-button-zoom-out {
+  position: absolute;
+  top: 170px;
+  right: 20px;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  color: $primary-color;
+  background-color: #e3ebf9;
+  border: solid 2px #c3d4f4;
+  border-radius: 2px;
+  z-index: 1;
+  transition: 200ms;
+  cursor: pointer;
+
+  &:before {
+    font-family: 'Material Icons';
+    font-size: 25px;
+    content: "";
+  }
+
+  &:hover {
+    background-color: #caddff;
+  }
+
+  &:active {
+    background-color: #acc1e7;
+  }
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* FIX CONTEXT PAD ENTRIES */
+.djs-context-pad .entry:before {
+  margin: 0; }
+
+.canvas {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  fill: #d7d7d7;
+}
+
+.bjs-powered-by {
+  visibility: hidden;
+  display: none;
+}
+
+.content.with-diagram .canvas {
+  visibility: visible;
+}

@@ -1,0 +1,237 @@
+{
+  "details": {
+    "title": "Versicherungsnummer: {{policyId}}",
+    "policyId": "Versicherungsnummer: {{policyId}}",
+    "customerId": "Kundennummer: {{customerId}}",
+    "customer": "Kunde",
+    "registeredDate": "Registriert am:",
+    "lastUpdate": "Zuletzt aktualisiert am:",
+    "timeFrame": "Zeitrahmen",
+    "product": "Produkt",
+    "updateNote": "Bitte beachte: Das Datum Gültig bis gilt bis 0:00 Uhr und bestätigte Änderungen können nicht rückgängig gemacht werden.",
+    "optional": "* Optional",
+    "required": "Pflichtfeld",
+    "companyName": "Gesellschaft",
+    "startDate": "Versicherungsbeginn",
+    "endDate": "Ablaufdatum",
+    "contractLength": "Vertragslaufzeit",
+    "createAddendum": "Addendum erstellen"
+  },
+  "list": {
+    "title": "Versicherungsdaten",
+    "policyNumber": "Versicherungsnummer",
+    "productType": "Versicherungsart",
+    "product": "Produkt",
+    "startDate": "Versicherungsbeginn",
+    "status": "Status",
+    "cover": "Deckung",
+    "marking": "Kennzeichnen",
+    "tariff": "Tarif",
+    "type": "Typ"
+  },
+  "formTabs": {
+    "policy": "Allgemein",
+    "productType": "Risiko",
+    "product": "Produkt"
+  },
+  "formTitle": {
+    "policy": "Allgemeine Daten",
+    "policyHolder": "Versicherungsnehmer"
+  },
+  "buttons": {
+    "draft": "Schwebe",
+    "save": "Speichern"
+  },
+  "messages": {
+    "fieldRequired": "{{ fieldLabel }} is ein Pflichfeld."
+  },
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "paused": "Pausiert"
+  },
+  "productTypeForm": {
+    "insuranceGroup": "Versichertenkreis",
+    "familyInfo": "Familienstand",
+    "family": {
+      "single": "Single ohne Kinder",
+      "familyWithoutKids": "Familie ohne Kinder",
+      "singleWithKids": "Single mit Kindern",
+      "familyWithKids": "Familie mit Kindern"
+    },
+    "birthDate": "Geburtstag",
+    "zipCode": "Postleitzahl",
+    "civilLiability": "Beamtenhaftpflicht",
+    "liability": "Erzieher-/Lehrerhaftpflicht",
+    "liabilityGroup": "Anzahl Lehrer*innen/Erzieher*innen im Versichertenkreis"
+  },
+  "productForm": {
+    "tariff": "Tarif",
+    "tariffOptions": {
+      "light": "Light",
+      "basis": "Basis",
+      "premium": "Premium"
+    },
+    "deductable": "Selbstbeteiligung",
+    "additionalOptions": "Zusatzoptionen",
+    "exemption": "Beitragsfreistellung",
+    "inAbility": "Deliktunfähigkeit",
+    "homeOwner": "Hausbesitzer",
+    "badDebit": "Forderungsausfall",
+    "extraProtection": "Extra-Schutz",
+    "rentalVehicleProtections": "Mietfahrzeugschutz"
+  },
+  "customerForm": {
+    "name": "Versicherungsnehmer",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "birthDate": "Geburtsdatum",
+    "phone": "Telefon",
+    "gender": {
+      "title": "Anrede",
+      "male": "Herr",
+      "female": "Frau",
+      "others": "Andere"
+    }
+  },
+  "paymentForm": {
+    "paymentMethod": {
+      "title": "Zahlungsmethode",
+      "directDebit": "Lastschrifteinzug",
+      "bankTransfer": "Banküberweisung"
+    },
+    "paymentFrequency": {
+      "title": "Zahlungsfrequenz",
+      "yearly": "Jährlich",
+      "monthly": "Monatlich",
+      "halfYearly": "Halbjährlich",
+      "quarterly": "Vierteljährlich"
+    }
+  },
+  "tablesTabs": {
+    "documents": "Dokumente",
+    "invoices": "Rechnungen",
+    "debitAndCredit": "Debit/Credit",
+    "damage": "Schäden",
+    "suspensions": "Leistungsfreie Zeiten"
+  },
+  "documents": {
+    "date": "Datum",
+    "relative": "Relativ",
+    "custom": "Benutzerdefiniert",
+    "type": "Typ",
+    "name": "Name",
+    "titleModalUploadDoc": "Laden Sie ein neues Dokument hoch",
+    "addDocument": "Dokument hinzufügen",
+    "chooseFile": "Datei auswählen",
+    "comment": "Kommentar",
+    "selectFile": "Wählen Sie eine Datei aus",
+    "selectTemplate": "Wählen Sie eine Vorlage",
+    "filterType": "Nach Typ filtern",
+    "today": "Heute",
+    "lastWeek": "Letzte Woche",
+    "currentMonth": "Aktueller Monat",
+    "lastMonth": "Vorheriger Monat",
+    "time": "Uhrzeit",
+    "apply": "Verwenden",
+    "reset": "Abbrechen",
+    "download": "Herunterladen",
+    "from": "Von",
+    "to": "Bis",
+    "allDates": "Alle Daten",
+    "placeholder": "Datum und Uhrzeit auswählen",
+    "exportDocument": "Dokumente exportieren",
+    "export": "Exportieren",
+    "exportingDocuments": "Wird exportiert",
+    "emailNotify": "Mich per E-Mail benachrichtigen",
+    "emailPlaceholder": "E-Mail",
+    "submit": "Speichern",
+    "successMessage": "Bitte überprüfen Sie Ihren Posteingang, die Dokumente werden an die von Ihnen angegebene E-Mail-Adresse gesendet."
+  },
+  "invoices": {
+    "date": "Datum",
+    "type": "Typ",
+    "id": "ID",
+    "total": "Betrag(€)",
+    "addInvoice": "Rechnung hinzufügen",
+    "reCalculateInvoice": "Rechnungszeitraum neu berechnen"
+  },
+  "debitCredit": {
+    "date": "Datum",
+    "dueDate": "Fälligkeit",
+    "description": "Beschreibung",
+    "id": "ID",
+    "debit": "Soll",
+    "credit": "Haben",
+    "status": "Status"
+  },
+  "damage": {
+    "date": "Datum",
+    "type": "Typ",
+    "id": "ID",
+    "branch": "Sparte",
+    "amount": "Betrag(€)",
+    "demotion": "Rückstufung",
+    "edit": "Bearbeiten",
+    "history": "Geschichte",
+    "status": "Status"
+  },
+  "suspensions": {
+    "from": "Von",
+    "to": "Bis",
+    "type": "Typ"
+  },
+  "contractLength": {
+    "key": "$t( contractLength.{{ policy.contract_length }} )",
+    "year": "{{count}} Jahr",
+    "year_plural": "{{count}} Jahre",
+    "unlimited": "Unbestimmt",
+    "1y": "1 Jahr",
+    "3y": "3 Jahre",
+    "5y": "5 Jahre"
+  },
+  "feeTable": {
+    "fee": "Beitrag",
+    "type": "Typ",
+    "baseFee": "Grundbeitrag (€)",
+    "feePerKm": "Beitrag pro km (cents)",
+    "liabilityInsurance": "Haftpflicht",
+    "partialCoverage": "Teilkasko",
+    "fullCoverage": "Vollkasko",
+    "schutzbrief": "Schutzbrief",
+    "insuranceTax": "Vers.-Steuer",
+    "total": "Summe",
+    "date": "Datum",
+    "calculate": "Berechnen"
+  },
+  "logBookTable": {
+    "logBook": "Historie",
+    "date": "Datum",
+    "reason": "Änderungsgrund",
+    "actor": "Mitarbeiter"
+  },
+  "policyStatus": "$t(policyStatuses.{{policy.status}})",
+  "policyStatuses": {
+    "applied": "Beantragt",
+    "active": "Aktiv",
+    "performanceFree": "Leistungsfrei",
+    "pause": "Pausiert",
+    "cancel": "Storno"
+  },
+  "createdPolicyNav": {
+    "titleCreateNew": "Neue Versicherung: ",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "finish": "Beenden"
+  },
+  "typeFilters": "$t(typeDict.{{value}})",
+  "typeDict": {
+    "all": "Alle Dokumente",
+    "invoices": "Rechnungen",
+    "warnings": "Mahnungen",
+    "insurance": "Versicherung"
+  },
+  "titleDateFormat": "DD. MMM",
+  "dateFormat": "DD. MMMM"
+}

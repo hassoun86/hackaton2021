@@ -1,0 +1,11 @@
+{
+    "title": "Willkommen bei react und react-i18next",
+    "description": {
+      "part1": "Um loszulegen, ändern Sie <1>src/App(DE).js</1> und speichern Sie Ihre Änderungen, um neu zu laden.",
+      "part2": "Schalten Sie zwischen Englisch und Deutsch um."
+    },
+    "plural": {
+      "you_have_message": "Sie haben {{count}} Nachricht",
+      "you_have_message_plural": "Sie haben {{count}} Nachrichten"
+    }
+  }

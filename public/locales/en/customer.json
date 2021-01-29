@@ -1,0 +1,80 @@
+{
+  "details": {
+    "title": "Customer: {{customerId}}",
+    "customerId": "Customer: {{customerId}}",
+    "registeredDate": "Registered on:",
+    "lastUpdate:": "Last update:"
+  },
+  "list": {
+    "title": "Customer list",
+    "customerId": "Id",
+    "name": "Name",
+    "email": "Email",
+    "birthDate": "Birth Date",
+    "address": "Address",
+    "zipCode": "Postal Code"
+  },
+  "formTabs": {
+    "personalData": "Personal Data",
+    "payment": "Payment",
+    "insurance": "Insurance"
+  },
+  "personalDataForm": {
+    "titleForm": "Personal Data",
+    "loginData": "Login Data",
+    "customerId": "Customer ID",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "street": "Street",
+    "houseNumber": "House number",
+    "zipCode": "ZIP code",
+    "city": "City",
+    "birthDate": "Birthdate",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "updateReason": "Update reason",
+    "updateReasonInfo": "Please enter a brief reason of the changes",
+    "privateEmail": "Email",
+    "resetPassword": "Reset password",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "paymentDataForm": {
+    "titleFormPaymentData": "Payment Data",
+    "titleFormMandateReference": "Mandate reference",
+    "payment": "Payment",
+    "accountName": "Account holder",
+    "iban": "IBAN",
+    "sepaMandateId": "Sepa mandate id",
+    "createdMandate": "Mandate created",
+    "title": "Customer Data"
+  },
+  "messages": {
+    "fieldRequired": "The {{ fieldLabel }} field is required.",
+    "fieldInvalid": "Please enter a valid {{ fieldLabel }}."
+  },
+  "buttons": {
+    "newPolicy": "Create New Policy",
+    "productOptions": {
+      "kfzInsurance": "Kfz Insurance",
+      "autoInsurance": "Auto Insurance",
+      "liabilityInsurance": "Liability Insurance"
+    }
+  },
+  "steps": {
+    "step1": "Step 1",
+    "step2": "Step 2",
+    "step3": "Step 3",
+    "step4": "Step 4",
+    "productTypeData": "Product Type Data",
+    "productData": "Product Data",
+    "confirmation": "Confirmation"
+  },
+  "search": {
+    "placeholder": "Search Customers"
+  }
+}

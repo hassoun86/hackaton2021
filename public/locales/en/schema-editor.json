@@ -1,0 +1,61 @@
+{
+  "type": {
+    "common": {
+      "placeholder": "Placeholder"
+    },
+    "string": {
+      "label": "String",
+      "tooltipHelp": "Tooltip help"
+    },
+    "number": {
+      "label": "Number"
+    },
+    "date": {
+      "label": "Date"
+    },
+    "boolean": {
+      "label": "Boolean"
+    }
+  },
+  "editor": {
+    "ui": {
+      "productMetadata": "Product metadata",
+      "productName": "Product name",
+      "productFields": "Product fields",
+      "fieldLabel": "Field label",
+      "fieldDescription": "Field description",
+      "fieldName": "Field name",
+      "fieldDataType": "Data type",
+      "variableDefinition": "Variable definition"
+    },
+    "actions": {
+      "reset": "Reset",
+      "remove": "Remove",
+      "removeVariableTitle": "Remove a variable",
+      "removeVariableBody": "Are you sure that you want to remove variable: {{ name }}?",
+      "edit": "Edit",
+      "addField": "New custom field",
+      "overwriteThisVersion": "Overwrite this version",
+      "saveAsNewVersion": "Save as new version",
+      "removeVersion": "Remove this version",
+      "addVariable": "Add a variable"
+    },
+    "head": {
+      "fieldLabel": "Label",
+      "fieldDescription": "Description",
+      "fieldName": "Name",
+      "fieldType": "Type",
+      "fieldRequired": "Required",
+      "fieldUnique": "Unique"
+    },
+    "validation": {
+      "labelRequired": "Label is required.",
+      "descriptionRequired": "Description is required.",
+      "nameRequired": "Field id is required.",
+      "nameMatches" : "Only letters and underscore ( _ ) allowed.",
+      "typeRequired": "Type is required.",
+      "fieldsRequired": "Must have at least one custom field.",
+      "productNameRequired": "Product name is required."
+    }
+  }
+}

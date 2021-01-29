@@ -1,0 +1,118 @@
+{
+  "factors": "Factors",
+  "numberOfValues": "Number of values",
+  "values": "Values",
+  "selectValue": "Select option",
+  "steps": {
+    "step1": "Step 1",
+    "step2": "Step 2",
+    "step3": "Step 3",
+    "step4": "Step 4",
+    "step5": "Step 5",
+    "step6": "Step 6",
+    "importFactors": "Import factors",
+    "defineVariables": "Define variables",
+    "premiumCalculation": "Premium calculation/pricing",
+    "bookingFunnel": "Booking funnel",
+    "emailAndDocTemplates": "Email and document templates",
+    "confirmation": "Confirmation"
+  },
+  "createProduct": "Create new product",
+  "generalInformation": "General information",
+  "importDataSource": "Import data source",
+  "productType": "Product type",
+  "productName": "Product name",
+  "errorDataCSV": "Error: The data is invalid.",
+  "downloadCsv": "Download current factors",
+  "createNewVersion": "Create new version",
+  "cancel": "Cancel",
+  "saveData": "Save and Next",
+  "saveBtn": "Save",
+  "updateBtn": "Update",
+  "nextBtn": "Next: {{ nameNextStep }}",
+  "prevBtn": "Previous: {{ namePrevStep }}",
+  "editBtn": "Edit",
+  "deleteBtn": "Delete",
+  "previousBtn": "Previous",
+  "changesData": "Changes in new data",
+  "compareStatus": {
+    "added": "Added data",
+    "updated": "Updated data",
+    "deleted": "Removed data"
+  },
+  "premiumCalculation": {
+    "groupName": "Group Name",
+    "name": "Name",
+    "type": "Type",
+    "typeOptions": {
+      "vehicle" : "Vehicle",
+      "time" : "Time"
+    },
+    "timeOptions": {
+      "day": "1 Day",
+      "week": "1 Week",
+      "month": "1 Month",
+      "year": "1 Year"
+    },
+    "no": "No",
+    "yes": "Yes",
+    "unit": "Unit",
+    "billedRetroactively": "Billed retroactively",
+    "pricePerUnit": "Price per unit expression",
+    "addNew": "Add new premium calculation",
+    "edit": "Edit premium calculation"
+  },
+  "loading": "Loading",
+  "modal": {
+    "deleteTitle" : "Premium calculation group delete",
+    "deleteMessage" : "Are you sure you want to delete this group: {{ groupName }}?"
+  },
+  "createdOn": "Created on {{ date }}",
+  "versionStatus": {
+    "active": "Active",
+    "passive": "Passive",
+    "draft": "Draft"
+  },
+  "tooltips": {
+    "importCsv": "Import Csv"
+  },
+  "productInfo": "Infos:",
+  "basics": "Basics:",
+  "extras": "Extras:",
+  "newProduct": "New Product",
+  "editProduct": "Edit Product",
+  "productOverview": "Product overview",
+  "management": "Management",
+  "countVersion": "Versions ({{ count }})",
+  "countPolicy": "{{ count }} policy",
+  "countPolicy_plural": "{{ count }} policies",
+  "countFactor": "{{ count }} factor",
+  "countFactor_plural": "{{ count }} factors",
+  "countVariable": "{{ count }} variable",
+  "countVariable_plural": "{{ count }} variables",
+  "countPremiumCalculation": "{{ count }} premium calculation",
+  "countPremiumCalculation_plural": "{{ count }} premium calculations",
+  "countEmailTemplate": "{{ count }} Email template",
+  "countEmailTemplate_plural": "{{ count }} Email templates",
+  "countDocTemplate": "{{ count }} document template",
+  "countDocTemplate_plural": "{{ count }} document templates",
+  "countBookingFunnel": "{{ count }} booking funnel",
+  "countBookingFunnel_plural": "{{ count }} booking funnels",
+  "btnActivateVersion": "Activate version",
+  "btnDeactivateVersion": "Deactivate version",
+  "btnDeleteVersion": "Delete version",
+  "btnDuplicateVersion": "Duplicate version",
+  "btnLanch": "Review and launch",
+  "versionName": "Version {{ vId }}",
+  "btnFinish": "Finish",
+  "btnNextStep": "Next",
+  "versionModal": {
+    "deleteTitle" : "Remove a version",
+    "deleteMessage" : "Are you sure you want to remove this version?"
+  },
+  "updatedMessages": {
+    "successActivated": "Version {{ vId }} was successfully activated.",
+    "successDuplicated": "Version {{ vId }} was successfully duplicated.",
+    "successDeleted": "Version {{ vId }} was deleted."
+  }
+}

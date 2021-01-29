@@ -1,0 +1,79 @@
+{
+  "title": "Email Editor",
+  "editorTabs": {
+    "designs": "Designs",
+    "templates": "Templates"
+  },
+  "designsList": {
+    "title": "My Designs",
+    "createNew": "Create a new Design",
+    "timeCreated" : "Created on"
+  },
+  "templateList": {
+    "title": "My Templates",
+    "createNew": "Create a new template",
+    "timeCreated": "Created on",
+    "templateName": "Template name",
+    "published": "Published",
+    "draftSaved": "Draft last saved",
+    "searchPlaceholder": "Search",
+    "sameAsPublished": "Same as published",
+    "draft": "Draft",
+    "notYetPublished": "Not yet published",
+    "noDraftContent": "Draft has no content"
+  },
+  "actions": {
+    "title": "Actions",
+    "edit": "Edit",
+    "delete": "Löschen",
+    "duplicate": "Duplicate",
+    "deleteDesignTitle": "Design löschen: {{designName}}",
+    "deleteDesignBody": "Sind Sie sicher, dass Sie {{designName}} löschen möchten?",
+    "duplicateDesignTitle": "Duplicate: {{designName}}",
+    "duplicateDesignBody": "Are you sure you want to make a copy of {{designName}}?",
+    "deleteTemplateTitle": "Template löschen: {{count}}",
+    "deleteTemplateBody": "Sind Sie sicher, dass Sie {{count}} löschen möchten?",
+    "duplicateTemplateTitle": "Duplicate: {{count}}",
+    "duplicateTemplateBody": "Are you sure you want to make a copy of {{count}}?"
+  },
+  "detailsPage": {
+    "title": "Email Editor: {{ designCode }}"
+  },
+  "designForm": {
+    "general": "General",
+    "name": "Design Name",
+    "slug": "Design Slug",
+    "header": "Header",
+    "bgColor": "Background Color",
+    "footer": "Footer",
+    "bodyTitle": "Body font and colors",
+    "fontFamily": "Font Family",
+    "textColor": "Text Color",
+    "linkColor": "Link Color",
+    "bodyInteriorColor": "Body interior color",
+    "bodyContainerColor": "Body container color",
+    "footerTextColor": "Footer Text Color",
+    "shadow": "Body Shadow",
+    "bodyTitleColor": "Body Title Color",
+    "buttonStyles": "Button Style",
+    "bottomLine": "Body Bottom Line",
+    "headerTextColor": "Header Text Color"
+  },
+  "templateForm": {
+    "general": "General",
+    "name": "Template Name",
+    "slug": "Template Slug",
+    "designTitle": "Design",
+    "bodyTitle": "Body",
+    "saveAsDraft": "Save as draft"
+  },
+  "templateDetailsPage": {
+    "title": "Email Editor: {{ templateCode }}"
+  },
+  "editorPreview": {
+    "title": "Preview"
+  },
+  "newTemplate": {
+    "title": "Create a new template"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "menu": {
+    "item": {
+      "navigation": "Navigation",
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "customers": "Customers",
+      "customerDetails": "Customer details",
+      "policies": "Policies",
+      "policyDetails": "Policy Details",
+      "authentication": "Authentication",
+      "login": "Login",
+      "resetPassword": "Reset password",
+      "logout": "Logout",
+      "management": "Management",
+      "settings": "Settings",
+      "generalSettings": "General settings",
+      "productSettings": "Product settings",
+      "emailEditor": "Email Editor"
+    }
+  },
+  "navigation": {
+    "title": "Navigation",
+    "settings": "Settings",
+    "logout": "Log Out",
+    "insurance": "Insurance",
+    "userList": "Customer List",
+    "policyList": "Policy List",
+    "home": "Home",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "newTimeFrame": "Create new timeframe",
+    "switchTo": "Switch to"
+  },
+  "messages": {
+    "welcome": "Welcome",
+    "error": "Error",
+    "badRequest": "Bad Client Request",
+    "backToHome": "Back to Home",
+    "noAccess": "No Access rights for this page"
+  },
+  "validity": {
+    "from": "Valid From",
+    "to": "Valid To"
+  },
+  "placeholder": {
+    "date": "Select Date and Time"
+  },
+  "forms": {
+    "confirmTitle": "Confirm Changes",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "apply": "Apply",
+    "updateReason": "Reason for change",
+    "reset": "Reset",
+    "save": "Save",
+    "messages": {
+      "fieldRequired": "The {{ fieldLabel }} field is required.",
+      "fieldInvalid": "Please enter a valid {{ fieldLabel }}.",
+      "invalidEmailFormat": "Invalid Email Format.",
+      "success": "Your changes have been successfully saved.",
+      "errorSave": "An error has occurred while saving your changes.",
+      "loginError": "Please check your login details.",
+      "changePasswordError": "Password must be at least 8 characters and need to have at least one lowercase, uppercase and number character.",
+      "error": "An error has occurred.",
+      "passwordLengthError": "Password must be at least 8 characters.",
+      "notMatchPasswordError": "The new password and the confirmation password do not match."
+    },
+    "no": "No",
+    "yes": "Yes"
+  },
+  "homePage": {
+    "task": {
+      "id": "#",
+      "titleHeader": "Task list",
+      "taskList": "Task",
+      "lastCommit": "Created on",
+      "status": "Status",
+      "assignedUser": "Assigned employee",
+      "action": "Actions",
+      "opt1": "Open",
+      "opt2": "In process",
+      "opt3": "Blocked"
+    },
+    "customers": {
+      "titleHeader": "Daily new policies"
+    },
+    "notifications": {
+      "titleHeader": "News"
+    },
+    "todo": {
+      "titleHeader": "Reminders"
+    }
+  },
+  "search": {
+    "placeholder": "Search...",
+    "lastViewed": "Last viewed",
+    "viewAllCustomers": "View all customers",
+    "viewAllPolicies": "View all policies",
+    "customers": "Customers",
+    "policies": "Policies"
+  },
+  "products": {
+    "productVariables": "Product Variables",
+    "productList": "Product List",
+    "productsTitle": "Products",
+    "productListDesc": "View and configurate each of your product variables.",
+    "pricing": "Pricing",
+    "pricingDesc": "Add or edit bank accounts and adjust payout.",
+    "businessLogic": "Business logic",
+    "businessLogicDesc": "Add or remove integrated plugins.",
+    "documents": "Documents",
+    "yourDocuments": "Your documents",
+    "yourDocumentsDesc": "Access your latest SAQ document and update compliance details.",
+    "documentsTemplates": "Documents templates",
+    "documentsTemplatesDesc": "Updates business owners and representatives for your company.",
+    "email": "E-Mail",
+    "yourEmail": "Your E-Mail",
+    "yourEmailDesc": "Upload important tax and billing documents and review past statements.",
+    "emailTemplates": "E-Mail templates",
+    "emailTemplatesDesc": "Export Quickbooks and monthly reports.",
+    "insurance": "Insurance",
+    "category": "Category",
+    "extraInfo": "Extra info",
+    "numberVersions": "Number of versions",
+    "modify": "Modify",
+    "title": "Title",
+    "id": "Id (version)",
+    "name": "Name",
+    "description": "Description",
+    "type": "Type",
+    "edit": "Edit",
+    "remove": "Remove",
+    "addField": "Add field",
+    "label": "Label",
+    "addButton": "Add",
+    "addProduct": "Add Product"
+  },
+  "generalSettings": {
+    "generalInformation": "General Information",
+    "accountInformation": "Account information",
+    "accountDesc": "Update name, address and other public contact information.",
+    "general": "General",
+    "generalDesc": "Update your name, time zone, language, currency and date formats.",
+    "branding": "Branding",
+    "brandingDesc": "Edit the appearance of your brand (logo, colors, etc.).",
+    "user": "User",
+    "userDesc": "Add or remove team members to your account.",
+    "teams": "Teams",
+    "teamsDesc": "Edit the permissions of different teams.",
+    "marketplace": "Marketplace",
+    "plugIns": "Plug-Ins",
+    "plugInsDesc": "Edit or add plugins from the EMIL Marketplace.",
+    "importExport": "Import & Export",
+    "importData": "Import data",
+    "importDataDesc": "Access your latest SAQ document and update compliance details.",
+    "exports": "Exports",
+    "exportsDesc": "Create data exports and download previous exports again.",
+    "integrationsWebhooks": "Integrations & Webhooks",
+    "apiTokens": "API Tokens",
+    "apiTokensDesc": "Edit the access data for the integrated systems.",
+    "webhookSettings": "Webhook settings",
+    "webhookSettingsDesc": "Edit the webhooks in your system.",
+    "securityAudit": "Security & Audit",
+    "securityHistory": "Security History",
+    "securityHistoryDesc": "List of registrations and changes to your account.",
+    "2FA": "2FA",
+    "2FADesc": "Edit the 2-factor authentication in your account.",
+    "otherSecuritySettings": "Other security settings",
+    "otherSecuritySettingsDesc": "Further settings.",
+    "softwareSettings": "Software Settings",
+    "paymentProcessing": "Payment processing",
+    "paymentProcessingDesc": "Settings for payment processing and payment reminders.",
+    "underwriting": "Underwriting",
+    "underwritingDesc": "Attitudes towards underwriting.",
+    "documentCenter": "Document Center",
+    "documentCenterDesc": "Edit and add document templates."
+  },
+  "plugins": {
+    "infoText": "Add or remove integrated plugins",
+    "preferences": "Plugins preferences",
+    "noPlugins": "No plugins",
+    "installHeader": "Installed Plugins",
+    "uninstallHeader": "Available Plugins",
+    "install": "Install",
+    "uninstall": "Uninstall"
+  },
+  "profile": {
+    "profile": "My Profile",
+    "settings": "Personal Settings",
+    "logout": "Logout",
+    "addAnotherAccount": "Add another account",
+    "name": "Name",
+    "email": "E-Mail",
+    "password": "Password"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "list": {
+      "notification1Name": "Notification example 1",
+      "notification1Desc": "Short description of what consists notification 1",
+      "notification2Name": "Notification example 2",
+      "notification2Desc": "Short description of what consists notification 2",
+      "notification3Name": "Notification example 3",
+      "notification3Desc": "Short description of what consists notification 3",
+      "notification4Name": "Notification example 4",
+      "notification4Desc": "Short description of what consists notification 4",
+      "notification5Name": "Notification example 5",
+      "notification5Desc": "Short description of what consists notification 5"
+    }
+  },
+  "twoStepAuth": {
+    "title": "Two-step authentification",
+    "text": "Keep your account safe with a second authentification step",
+    "buttonText": "Add authentification step"
+  },
+  "users": {
+    "roles": {
+      "allroles": "All roles",
+      "admin": "Administrator",
+      "showOnly": "Show only",
+      "insurer": "Insurer",
+      "developer": "Developer",
+      "user": "User"
+    },
+    "user": "User",
+    "email": "E-mail",
+    "role": "Role",
+    "lastLogin": "Last login",
+    "searchByEmail": "Search by name or E-Mail-Adress",
+    "newUser": "New user",
+    "exportUsers": "Export users",
+    "you": "Sie",
+    "titleAddUser": "Invite new user",
+    "descAddUser": "Enter the email address of the users and select the roles you want to play.",
+    "labelForm": "User e-mail address",
+    "emailPl": "e.g. emilmustermann@mail.com",
+    "rolesTitle": "Roles",
+    "buttonUpdate": "Update",
+    "buttonInvite": "Invite",
+    "owner": "Owner",
+    "pending": "Pending",
+    "editTitle": "edit",
+    "messages": {
+      "successDelete": "The user has been successfully deleted.",
+      "errorDelete": "An error has occurred during deletion."
+    },
+    "deleteModalTitle": "Delete User",
+    "deleteModalMessages": "Are you sure you want to delete this user?",
+    "unassigned": "Unassigned",
+    "noOptions": "No options",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name"
+  },
+  "tables": {
+    "buttonReset": "Reset",
+    "sortTitle": "Toggle SortBy"
+  },
+  "roles": {
+    "allroles": "All roles",
+    "admin": "Administrator",
+    "showOnly": "Show only",
+    "insurer": "Insurer",
+    "developer": "Developer",
+    "role": "Role",
+    "rolesTitle": "Roles",
+    "roleDesc": "Description",
+    "titleMembers": "Number of members",
+    "members": "member(s)",
+    "newRole": "Create new role",
+    "titleAddRole": "Create a new role",
+    "buttonUpdate": "Update",
+    "buttonAdd": "Create new role",
+    "editTitle": "edit",
+    "messages": {
+      "successDelete": "The role has been successfully deleted.",
+      "errorDelete": "An error has occurred during deletion."
+    },
+    "deleteModalTitle": "Delete role",
+    "deleteModalMessages": "Are you sure you want to delete this role?",
+    "titleAddPermission": "Users with this role can",
+    "components": {
+      "everything": "Everything",
+      "policies": "Policies",
+      "customers": "Customers",
+      "businessSettings": "Business Settings",
+      "users": "Users",
+      "roles": "Roles"
+    },
+    "permissions": {
+      "add": "Add",
+      "edit": "Edit",
+      "view": "View",
+      "viewAndEdit": "View and edit",
+      "approve": "Approve",
+      "approveEdit": "Approve edit",
+      "editSchwebe": "Edit into Schwebe"
+    },
+    "addPermission": "Add another rule",
+    "selectPermission": "Select Permission",
+    "built-in": "built-in"
+  },
+  "branding": {
+    "name": "Name",
+    "streetAndNumberHouse": "Street, House number",
+    "zipCode": "ZIP code",
+    "city": "City",
+    "country":  "Country",
+    "logo": "Logo",
+    "uploadLogo": "Upload a new logo",
+    "mainColor": "Main color"
+  },
+  "general": {
+    "name": "Name",
+    "timeZone": "Time zone",
+    "language": "Language",
+    "currency": "Currency",
+    "formatHours": "Time format",
+    "formatDates": "Date format",
+    "lngEn": "English",
+    "lngDe": "German",
+    "currencyEuro": "Euro (€)",
+    "currencyDollar": "Dollar ($)"
+  },
+  "helpNav": {
+    "documentation": "Documentation",
+    "helpCenter": "Help center",
+    "explanatoryTour": "Explanatory Tour",
+    "giveFeedbacks": "Give us feedbacks",
+    "contactSupport": "Contact Support",
+    "impressum":"Impressum",
+    "privacyPolicy":"Privacy policy",
+    "legal": "Legal notice",
+    "help": "Help"
+  }
+}

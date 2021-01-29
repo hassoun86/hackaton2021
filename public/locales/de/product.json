@@ -1,0 +1,118 @@
+{
+  "factors": "Faktoren",
+  "numberOfValues": "Anzahl von Werten",
+  "values": "Werte",
+  "selectValue": "Option auswählen",
+  "steps": {
+    "step1": "Schritt 1",
+    "step2": "Schritt 2",
+    "step3": "Schritt 3",
+    "step4": "Schritt 4",
+    "step5": "Schritt 5",
+    "step6": "Schritt 6",
+    "importFactors": "Faktoren importieren",
+    "defineVariables": "Variablen definieren",
+    "premiumCalculation": "Prämienberechnung/Preisgestaltung",
+    "bookingFunnel": "Booking Funnel",
+    "emailAndDocTemplates": "E-Mail- und Dokumentvorlagen",
+    "confirmation": "Bestätigung"
+  },
+  "createProduct": "Neues Produkt erstellen",
+  "generalInformation": "Allgemeine Information",
+  "importDataSource": "Datenquelle importieren",
+  "productType": "Produkttyp",
+  "productName": "Produktname",
+  "errorDataCSV": "Die Daten sind ungültig.",
+  "downloadCsv": "Aktuelle Faktoren herunterladen",
+  "createNewVersion": "Neue Version erstellen",
+  "cancel": "Abbrechen",
+  "saveData": "Speichern und weiter",
+  "saveBtn": "Speichern",
+  "updateBtn": "Aktualisieren",
+  "nextBtn": "Weiter: {{ nameNextStep }}",
+  "prevBtn": "Zurück: {{ namePrevStep }}",
+  "editBtn": "Bearbeiten",
+  "deleteBtn": "Entfernen",
+  "previousBtn": "Zurück",
+  "changesData": "Datenänderungen",
+  "compareStatus": {
+    "added": "Daten wurden hinzugefügt",
+    "updated": "Daten wurden aktualisiert",
+    "deleted": "Daten wurden entfernt"
+  },
+  "premiumCalculation": {
+    "groupName": "Gruppenname",
+    "name": "Name",
+    "type": "Typ",
+    "typeOptions": {
+      "vehicle" : "Fahrzeug",
+      "time" : "Zeit"
+    },
+    "timeOptions": {
+      "day": "1 Tag",
+      "week": "1 Woche",
+      "month": "1 Monat",
+      "year": "1 Jahr"
+    },
+    "no": "Nein",
+    "yes": "Ja",
+    "unit": "Einheit",
+    "billedRetroactively": "Rückwirkend abgerechnet",
+    "pricePerUnit": "Preis pro Einheit",
+    "addNew": "Neue Prämienberechnung hinzufügen",
+    "edit": "Prämienberechnung bearbeiten"
+  },
+  "loading": "Wird geladen",
+  "modal": {
+    "deleteTitle" : "Prämienberechnung: Gruppe entfernen",
+    "deleteMessage" : "Möchten Sie diese Gruppe wirklich löschen: {{ groupName }}?"
+  },
+  "createdOn": "Erstellt am {{ date }}",
+  "versionStatus": {
+    "active": "Aktiv",
+    "passive": "Nicht aktiv",
+    "draft": "Entwurf"
+  },
+  "tooltips": {
+    "importCsv": "CSV-Datei importieren"
+  },
+  "productInfo": "Infos:",
+  "basics": "Basics:",
+  "extras": "Extras:",
+  "newProduct": "Neues Produkt",
+  "editProduct": "Produkt bearbeiten",
+  "productOverview": "Produktübersicht",
+  "management": "Management",
+  "countVersion": "Versionen ({{ count }})",
+  "countPolicy": "{{ count }} Versicherung",
+  "countPolicy_plural": "{{ count }} Versicherungen",
+  "countFactor": "{{ count }} Faktor",
+  "countFactor_plural": "{{ count }} Faktoren",
+  "countVariable": "{{ count }} Variable",
+  "countVariable_plural": "{{ count }} Variablen",
+  "countPremiumCalculation": "{{ count }} Prämienberechnung",
+  "countPremiumCalculation_plural": "{{ count }} Prämienberechnungen",
+  "countEmailTemplate": "{{ count }} E-Mail-Vorlage",
+  "countEmailTemplate_plural": "{{ count }} E-Mail-Vorlagen",
+  "countDocTemplate": "{{ count }} Dokumentvorlage",
+  "countDocTemplate_plural": "{{ count }} Dokumentvorlagen",
+  "countBookingFunnel": "{{ count }} Booking Funnel",
+  "countBookingFunnel_plural": "{{ count }} Booking Funnels",
+  "btnActivateVersion": "Version aktivieren",
+  "btnDeactivateVersion": "Version deaktivieren",
+  "btnDeleteVersion": "Version entfernen",
+  "btnDuplicateVersion": "Version klonen",
+  "btnLanch": "Überprüfen und starten",
+  "versionName": "Version {{ vId }}",
+  "btnFinish": "Beenden",
+  "btnNextStep": "Weiter",
+  "versionModal": {
+    "deleteTitle" : "Version entfernen",
+    "deleteMessage" : "Möchten Sie diese Version wirklich entfernen?"
+  },
+  "updatedMessages": {
+    "successActivated": "Version {{ vId }} wurde erfolgreich aktiviert.",
+    "successDuplicated": "Version {{ vId }} wurde erfolgreich geklont.",
+    "successDeleted": "Version {{ vId }} wurde entfernt."
+  }
+}

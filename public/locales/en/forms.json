@@ -1,0 +1,65 @@
+{
+  "required": "The {{ ui.title }} is required.",
+  "wrong": "The {{ ui.title }} value \"{{ data.value }}\" is wrong.",
+  "wrongEmail": "Not valid email address - {{ data.value}}.",
+  "min": "Field {{ ui.title }} have value {{ data.value }} but this value should have more than {{ data.min }} characters. A more text to test very long validation message.",
+  "buttonToolbar": {
+    "submit": "Submit",
+    "reset": "Reset"
+  },
+  "messages": {
+    "fieldRequired": "{{ ui.title }} is required.",
+    "fieldInvalid": "{{ ui.title }} is invalid.",
+    "invalidEmail": "Invalid email provided.",
+    "numberMax": "Max value for {{ui.title}} is {{data.max}}.",
+    "numberMin": "Min value for {{ui.title}} is {{data.min}}.",
+    "booleanTrueRequired": "{{ui.title}} must be checked."
+  },
+  "genderOption": "$t( genderDict.{{value}}.label )",
+  "genderDict": {
+    "male": "Male",
+    "female": "Female",
+    "others": "Others"
+  },
+  "paymentFrequencyOption": "$t( paymentFrequencyDict.{{value}} )",
+  "paymentFrequencyDict": {
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "halfYearly": "6 Months",
+    "quarterly": "Quarterly"
+  },
+  "paymentMethodOption": "$t( paymentMethodDict.{{value}} )",
+  "paymentMethodDict": {
+    "directDebit": "Direct Debit",
+    "bankTransfer": "Bank Transfer"
+  },
+  "policyStatusOption": "$t(policyStatusDict.{{value}})",
+  "policyStatusDict": {
+    "applied": "Applied",
+    "active": "Active",
+    "performanceFree": "Performance Free",
+    "pause": "Pause",
+    "cancel": "Cancel"
+  },
+  "policyContractLengthOption": "$t(policyContractLengthDict.{{value}})",
+  "policyContractLengthDict": {
+    "unlimited": "Unlimited",
+    "1y": "1 Year",
+    "3y": "3 Years",
+    "5y": "5 Years"
+  },
+  "familyInfoOption": "$t(familyInfoDict.{{value}})",
+  "familyInfoDict": {
+    "single": "Single without kids",
+    "familyWithoutKids": "Family without kids",
+    "singleWithKids": "Single with kids",
+    "familyWithKids": "Family with kids"
+  },
+  "tariffOption": "$t(tariffDict.{{value}})",
+  "tariffDict": {
+    "light": "Light",
+    "basis": "Basis",
+    "premium": "Premium"
+  },
+  "deductableOption": "{{amount}}{{symbol}}"
+}

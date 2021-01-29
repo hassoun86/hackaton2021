@@ -1,0 +1,33 @@
+{
+  "locale": {
+    "back": "Back",
+    "close": "Close",
+    "last": "Finish",
+    "next": "Next",
+    "open": "Open the dialog window",
+    "skip": "Skip"
+  },
+  "explanatoryTour": "Explanatory Tour",
+  "dashboardPageTour": {
+    "newPoliciesContent": "Here you can see current statistics about the different products.",
+    "newsContent": "Here you can see your notifications.",
+    "remindersContent": "Here you can see triggered reminders.",
+    "ticketStatisticsContent": "Here you can you see statistics about the operational tickets.",
+    "taskListContent": "Here you can see the currently open tickets that are unassigned or assigned to you.",
+    "searchContent": "Click here to search for policies or customers."
+  },
+  "pbPageTour": {
+    "dashboardTitle": "Premium Benchmarking Dashboard",
+    "dashboardContent": "You can see the analytical dashboard here. Please see the documentation for more details.",
+    "profileMenuTitle": "User menu",
+    "profileMenuContent": "You can see the active user and log out here.",
+    "productSelectorTitle": "Product selection",
+    "productSelectorContent": "You can select other EMIL Insurance Suite products here.",
+    "helpMenuTitle": "Help",
+    "helpMenuContent": "You can find useful links and resources here.",
+    "collapseMenuTitle": "Collapse the menu",
+    "collapseMenuContent": "Click here to collapse or expand the menu.",
+    "footerLinksTitle": "Impressum/Privacy Policy",
+    "footerLinksContent": "You can find the information about EMIL Group and our data protection here."
+  }
+}

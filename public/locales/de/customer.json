@@ -1,0 +1,80 @@
+{
+  "details": {
+    "title": "Kunden: {{customerId}}",
+    "customerId": "Kundennummer: {{customerId}}",
+    "registeredDate": "Registriert am:",
+    "lastUpdate": "Zuletzt aktualisiert am:"
+  },
+  "list": {
+    "title": "Kundendaten",
+    "customerId": "Kundennummer",
+    "name": "Name",
+    "email": "E-Mail",
+    "birthDate": "Geburtsdatum",
+    "address": "Adresse",
+    "zipCode": "Postleitzahl"
+  },
+  "formTabs": {
+    "personalData": "Kundendaten",
+    "payment": "Zahlung",
+    "insurance": "Versicherungen"
+  },
+  "personalDataForm": {
+    "titleForm": "Persönliche Daten",
+    "loginData": "Zugangsdaten",
+    "customerId": "Kundennummer",
+    "gender": "Geschlecht",
+    "male": "Herr",
+    "female": "Frau",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "street": "Straße",
+    "houseNumber": "Hausnummer",
+    "zipCode": "Postleitzahl",
+    "city": "Stadt",
+    "birthDate": "Geburtsdatum",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "phone": "Telefon",
+    "updateReason": "Änderungsgrund",
+    "updateReasonInfo": "Bitte geben Sie einen Änderungsgrund ein.",
+    "privateEmail": "E-Mail",
+    "resetPassword": "Passwort zurücksetzen",
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  },
+  "paymentDataForm": {
+    "titleFormPaymentData": "Zahlungsdaten",
+    "titleFormMandateReference": "Mandatsreferenz",
+    "payment": "Zahlungsart",
+    "accountName": "Kontoinhaber",
+    "iban": "IBAN",
+    "sepaMandateId": "Mandatsreferenz",
+    "createdMandate": "Mandat erstellt",
+    "title": "Kundendaten"
+  },
+  "messages": {
+    "fieldRequired": "{{ fieldLabel }} ist ein Pflichtfeld.",
+    "fieldInvalid": "Bitte geben Sie einen gültigen Wert in {{ fieldLabel }} ein."
+  },
+  "buttons": {
+    "newPolicy": "Neue Versicherung hinzufügen",
+    "productOptions": {
+      "kfzInsurance": "Kfz-Versicherung",
+      "autoInsurance": "Motorradversicherung",
+      "liabilityInsurance": "Privathaftpflicht"
+    }
+  },
+  "steps": {
+    "step1": "Schritt 1",
+    "step2": "Schritt 2",
+    "step3": "Schritt 3",
+    "step4": "Schritt 4",
+    "productTypeData": "Risikodaten",
+    "productData": "Produktdaten",
+    "confirmation": "Bestätigung"
+  },
+  "search": {
+    "placeholder": "Suchen Kundendaten"
+  }
+}

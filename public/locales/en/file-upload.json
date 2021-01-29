@@ -1,0 +1,12 @@
+{
+  "textDropZone": "Drag & Drop files here or click here to select file(s)",
+  "acceptDropZone": "Release to drop the file(s) here",
+  "textDropZoneForCsv": "Drop .csv file here to upload or",
+  "btnChooseFile": "Choose file from your computer",
+  "deleteTitle": "Delete file",
+  "deleteBody": "Are you sure you want to delete this file?",
+  "btnUploadFiles": "Upload files",
+  "previewImageTitle": "Preview",
+  "tooManyFiles": "Error: Too many files", 
+  "fileInvalidType": "Error: File type must be {{ fileType }}"
+}

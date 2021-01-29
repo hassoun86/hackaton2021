@@ -1,0 +1,77 @@
+/* ====== [ Active Custom Color start ] ======== */
+:root {
+  --main-color: #1dc4e9;
+}
+.pcoded-navbar {
+        &.active-custom {
+            &.menu-item-icon-style1{
+                .pcoded-inner-navbar li.pcoded-hasmenu .pcoded-submenu li> a:hover:before,
+                .pcoded-inner-navbar li.pcoded-hasmenu .pcoded-submenu li> a.active:before {
+                    background: var(--main-color);
+                }
+            }
+            &[class*="menu-item-icon-style"]:not(.menu-item-icon-style1) {
+                .pcoded-inner-navbar li.pcoded-hasmenu .pcoded-submenu li> a.active:before {
+                    color: var(--main-color);
+                }
+            }
+
+            .pcoded-inner-navbar {
+                li > a {
+                    &.active,
+                    &:focus,
+                    &:hover {
+                        color: var(--main-color);
+                    }
+
+                    .pcoded-submenu > li {
+                        &.active,
+                        &:focus,
+                        &:hover {
+                            > a {
+                                &:before {
+                                    background: var(--main-color);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                > li {
+                    &.active,
+                    &.pcoded-trigger {
+                        &:after {
+                            background-color: var(--main-color);
+                        }
+                    }
+                }
+            }
+
+            &.theme-horizontal {
+                .pcoded-inner-navbar {
+                    > li {
+                        &,
+                        &.pcoded-hasmenu {
+                            .pcoded-submenu > li {
+                                a.active {
+                                    color: var(--main-color);
+                                }
+                                &.pcoded-trigger,
+                                &:hover {
+                                    > a {
+                                        color: var(--main-color);
+                                    }
+                                }
+
+                                .pcoded-submenu > li.active {
+                                    > a {
+                                        color: var(--main-color);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

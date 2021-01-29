@@ -1,0 +1,86 @@
+{
+  "ticketListPage": {
+    "title": "Ticketing",
+    "list": "Ticket List"
+  },
+  "newTicketPage": {
+    "title": "Create new ticket",
+    "subject": "Subject",
+    "description": "Description"
+  },
+  "ticketDetailsPage": {
+    "title": "Ticket: {{ ticketId }}",
+    "addComment": "Add a comment...",
+    "addCommentButton": "Add Comment",
+    "deleteModalTitle": "Delete comment",
+    "deleteModalMessages": "Are you sure you want to delete this comment?"
+  },
+  "dateFormat": "DD. MMMM YYYY [at] HH:mm",
+  "search": {
+    "label": "Customer/Policy",
+    "placeholder": "Search by name or number"
+  },
+  "filters": {
+    "all_unsolved": "All unsolved tickets",
+    "unassigned": "Unassigned tickets",
+    "assigned_to_me": "Assigned to me",
+    "open": "Open",
+    "waiting": "Waiting tickets",
+    "solved": "Solved tickets",
+    "title": "Overview"
+  },
+  "category": {
+    "fzv": "FZV",
+    "vwb": "VWB",
+    "cat_3": "CAT 3",
+    "cat_4": "CAT 4",
+    "blocked_tikets": "BLOCKED TICKETS",
+    "deleted_tikets": "DELETED TICKETS"
+  },
+  "status": {
+    "open": "Open",
+    "blocked": "Blocked",
+    "solved": "Solved",
+    "waiting": "Waiting"
+  },
+  "labelUserSearch": "Assignee",
+  "assignedToMe": "Assign me",
+  "categoryLabel": "Category",
+  "categoryPlc": "Select Category",
+  "statusLabel": "Status",
+  "statusPlc": "Select Status",
+  "ticket": {
+    "subject": "Subject",
+    "timeCreated": "Created at",
+    "category": "Category",
+    "assignedTo": "Assigned to"
+  },
+  "tiketSettings":{
+    "setting1": "Most Frequently Used Setting 1",
+    "triggers": "Triggers",
+    "setting2": "Most Frequently Used Setting 2",
+    "setting3": "Most Frequently Used Setting 3",
+    "allSetting": "All Ticketing Settings"
+  },
+  "newTask": "New task",
+  "actions": "Actions",
+  "markAsOpen": "Mark as open",
+  "markAsWaiting": "Mark as waiting",
+  "markAsSolved": "Mark as solved",
+  "assignTo": "Assign to",
+  "moveTo": "Move to",
+  "delete": "Delete",
+  "deleteTitle": "Delete {{count}} ticket",
+  "deleteTitle_plural": "Delete {{count}} tickets",
+  "deleteBody": "Are You sure You want to delete {{count}} ticket?",
+  "deleteBody_plural": "Are You sure You want to delete {{count}} tickets?",
+  "moveToTitle": "Move {{count}} ticket to",
+  "moveToTitle_plural": "Move {{count}} tickets to",
+  "assignToTitle": "Assign {{count}} ticket to",
+  "assignToTitle_plural": "Assign {{count}} tickets to",
+  "ticketsStat":{
+    "openTickets": "Open Tickets",
+    "solvedTickets": "Solved Tickets",
+    "unassignedTickets": "Not Assigned Tickets"
+  }
+}
