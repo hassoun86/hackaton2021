@@ -1,3 +1,3 @@
-# hackatoon2021
+# hackathon2021
 
-Emil
+Emil 2021
