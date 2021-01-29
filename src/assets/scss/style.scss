@@ -21,7 +21,13 @@ File: style.css
 =================================================================================
 =================================================================================== */
 
-@import "~bootstrap/dist/css/bootstrap";
+$theme-colors: (
+    "primary": #F4C22B,
+    "info": tomato,
+    "danger": teal
+);
+
+@import "~bootstrap/scss/bootstrap";
 
 // Import Bootstrap variables and functions so we can use them in our styles
 @import "~bootstrap/scss/functions";

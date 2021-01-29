@@ -1118,3 +1118,9 @@ input[type="checkbox"].form-control-checkbox-medium {
 .tab-content {
     height: 100vh;
 }
+
+.mobile-tabs {
+    .nav-link.active {
+        color: theme-color("primary");
+    }
+}

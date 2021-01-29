@@ -3,12 +3,9 @@ import React from 'react';
 import { Row, Tab } from 'react-bootstrap';
 
 export const SearchDestination: React.FC = () => {
-  
-  
   return (
     <div>
-        
-        <HashTabs className="mb-3 p-0 small text-center justify-content-around flex-wrap-nowrap position-fixed-to-bottom" variant="pills" defaultActiveKey="search" id="tab">
+        <HashTabs className="mb-3 p-0 small text-center justify-content-around flex-wrap-nowrap position-fixed-to-bottom mobile-tabs" variant="tabs" defaultActiveKey="search" id="tab">
             <Tab
                 tabClassName="text-transform-none"
                 eventKey="berlin-map"
