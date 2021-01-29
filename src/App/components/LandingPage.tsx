@@ -11,7 +11,7 @@ export const LandingPage: FC = () => {
               <img src="/assets/ubahn-d2.svg" />
           </div>
           <div className="mt-5 text-center">
-              <h1 className="f-36">Share a Ride</h1>
+              <h1 className="f-36">Ride Share</h1>
           </div>
           <div className="mt-5 text-center">
           <Link to="/select-rider"><Button variant="primary">Let's Start</Button></Link>

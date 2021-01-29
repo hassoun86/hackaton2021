@@ -88,8 +88,39 @@ File: style.css
   }
 }
 
+.btn-outline-primary {
+  color: #F4C22B;
+    border-color: #F4C22B;
+    border: 2px solid;
+    width: 160px;
+    height: 160px;
+
+    &:hover, &:active {
+      background: #fcf3d8;
+      border-color: #d1a316;
+    }
+}
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background: #d1a316;
+  border-color: #d1a316;
+}
+
+.select-button {
+  span {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+  }
+
+  img {
+    width: 90px;
+  }
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background: #fcf3d8;
   border-color: #d1a316;
 }
